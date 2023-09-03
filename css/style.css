@@ -184,7 +184,6 @@ nav ul li a:hover{
 	display: inline-block;
 	margin: 25px 0;
 	border-radius: 5px;
-	cursor: pointer;
 }
 
 .hello a:hover{
@@ -194,7 +193,7 @@ nav ul li a:hover{
 
 .logo{
 	display: flex;
-	margin:-80px 50px 50px 65px;
+	margin:-150px 50px 50px 85px;
 	width: 100%;
 	justify-content: center;
 }
