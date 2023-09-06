@@ -56,12 +56,15 @@ table {
 
 /**header**/
 body{
+	display: flex;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.head{
 	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../assets/gradien_4.jpg');
 	background-size: 100%;
-	display: flex;
-	overflow: hidden;
+	height: 100%;
 }
-
 .container{
 	width: 100%;
 	height: 100vh;
@@ -244,6 +247,108 @@ nav ul li a:hover{
 .deskripsi{
 	display: none	;
 }
+
+/**portfolio**/
+
+.tentangsaya{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+}
+.portofolio{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.webportofolio{
+	background-color: #191D88;
+	width: 30%;
+	height: 70%;
+	margin: 1%;
+}
+
+.webportofolio img{
+	width: 100%;
+}
+
+.artikel{
+	background-color: purple;
+	width: 30%;
+	height: 70%;
+	margin: 1%;
+
+}
+
+.contentwriter{
+	background-color: coral;
+	width: 30%;
+	height: 70%;
+	margin: 1%;
+
+}
+
+.hobi{
+	width: 100%;
+	height: 47%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.lagu{
+	background-color: yellow;
+	width: 47%;
+	height: 70%;
+	margin: 1%;
+
+}
+
+.buku{
+	background-color: green;
+	width: 45%;
+	height: 70%;
+	margin: 1%;
+}
+
+.karya{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.menulis{
+	background-color: red;
+	width: 94%;
+	height: 70%;
+	margin: 1%;
+}
+
+.portofolio :hover{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** hamburger menu animation**/
