@@ -259,46 +259,46 @@ nav ul li a:hover{
 
 .portofolio{
 	width: 100%;
-	height: 50%;
 	display: flex;
 	justify-content: center;
 }
 
 .web, .artikel, .contentwriter {
-	background-color: skyblue;
-	width: 30%;
-	height: 100%;
-	margin: 1%;
+	width: 47%;
+	height: 70%;
+	margin: 1% 1% 0% 1%;
 }
 
 .portofolio img{
 	width: 100%;
+	height: 100%;
 }
 
 .hobi{
 	width: 100%;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
-	margin-top: 1%;
+	margin-top: 0%;
 }
 
 .hobi img{
 	width: 100%;
 	height: 100%;
-	background-color: skyblue;
-
 }
 
 .fotografi, .buku, .menulis {
 	width: 47%;
 	height: 70%;
-	margin: 1%;
+	margin: 0% 1% 0% 1%;
 }
 
-
-
-
+.tentangsaya h1{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 55px;
+	color: rgb(110, 86, 17);
+	margin: 1%;
+	text-decoration: underline;
+}
 
 
 
